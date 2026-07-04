@@ -1,0 +1,15 @@
+{
+    "d_model": 768,
+    "d_mlp": 3072,
+    "n_layers": 12,
+    "n_heads": 12,
+    "max_len": 1024,
+    "dropout": 0.0,
+    "dtype": "float32",
+    "seed": 1337,
+    "learning_rate": 6e-4,
+    "weight_decay": 0.1,
+    "run_name": "gpt2-owt",
+    "vocab_size": 50304,
+    "sample_config": {"max_new_tokens": 500, "temperature": 0.8, "top_k": 200}
+}

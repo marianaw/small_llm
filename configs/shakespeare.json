@@ -1,0 +1,15 @@
+{
+    "d_model": 384,
+    "d_mlp": 1536,
+    "n_layers": 6,
+    "n_heads": 6,
+    "max_len": 256,
+    "dropout": 0.2,
+    "dtype": "float32",
+    "seed": 1337,
+    "learning_rate": 1e-3,
+    "weight_decay": 0.1,
+    "run_name": "shakespeare",
+    "vocab_size": 50304,
+    "sample_config": {"max_new_tokens": 500, "temperature": 0.8, "top_k": 40}
+}

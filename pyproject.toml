@@ -1,0 +1,23 @@
+[project]
+name = "small-llm"
+version = "0.1.0"
+description = "A small JAX nanoGPT, trained on shakespeare / openwebtext."
+requires-python = ">=3.10"
+dependencies = [
+    "jax>=0.4.30",
+    "flax>=0.8.0",
+    "chex>=0.1.85",
+    "optax>=0.2.0",
+    "numpy>=1.26",
+    "tensorflow>=2.15",
+    "tiktoken>=0.7",
+    "trackio>=0.0.5",
+    "tqdm>=4.66",
+    "requests>=2.31",
+    "datasets>=2.18",
+    "matplotlib>=3.8",
+    "ipykernel>=6.29",
+]
+
+[tool.uv]
+package = false
