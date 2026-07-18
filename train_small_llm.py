@@ -65,7 +65,7 @@ def main():
                    help="defaults to max_iters (nanoGPT convention)")
     p.add_argument("--min_lr", type=float, default=6e-5)
     p.add_argument("--grad_clip", type=float, default=1.0)
-    p.add_argument("--eval_interval", type=int, default=1000)
+    p.add_argument("--eval_interval", type=int, default=1)
     p.add_argument("--eval_iters", type=int, default=200)
     p.add_argument("--log_interval", type=int, default=10)
     args = p.parse_args()
